@@ -1,6 +1,6 @@
 node {
   stage 'Checkout'
-  git url: 'https://github.com/mavipraveen/learning.git'
+  git url: 'https://github.com/forgeuser007/learning.git'
 
   stage 'build'
   docker.build('webserver')
